@@ -3,12 +3,14 @@ using namespace std;
 
 int main() 
 {
-    int row, col;
+    int row, col, n;
+    cout<<"enter the value of n " ;
+    cin>>n;
     
-    for(row=1;row<=5;row=row+1)
+    for(row=1;row<=n;row=row+1)
     {
         // print space 
-        for(col=1;col<=5-row;col=col+1)
+        for(col=1;col<=n-row;col=col+1)
         cout<<"  ";
         
         //print (*)
